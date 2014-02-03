@@ -1,0 +1,66 @@
+@font-face{ 
+	font-family: 'BebasNeue';
+	src: url('BebasNeue-webfont.eot');
+	src: url('BebasNeue-webfont.eot?#iefix') format('eot'),
+	     url('BebasNeue-webfont.woff') format('woff'),
+	     url('BebasNeue-webfont.ttf') format('truetype'),
+	     url('BebasNeue-webfont.svg#BebasNeue') format('svg');
+}
+
+body {
+	font-family: courier, serif;
+	font-size: 12px;
+	width: 960px;
+	margin: auto;
+}
+
+h1 {
+ 	font-family: "BebasNeue", sans-serif;
+	font-size: 2rem; /*4*10px = 40px. A multiple of the default font size based on browser */
+	text-align: center;
+
+}
+
+h2 {
+	font-family: "BebasNeue";
+	font-size: 1rem;
+	text-align: left;
+
+}
+
+h3 {
+	font-family: courier;
+	font-size: 1rem;
+	text-align: left;
+	color: #797273;
+}
+
+p  {
+	font-family: courier, serif;
+	font-weight: normal;
+	font-size: 13px;
+	color: #797273;
+}
+
+a {
+	color: #797273;
+	font-size: 1rem;
+	text-decoration: none;
+
+}
+
+a:hover, a:focus, a:active {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #797273;
+	text-decoration: none;
+}
+
+nav {
+	margin-top: 5%;
+	text-align: center;
+}
+
