@@ -9,8 +9,8 @@
 
 body {
 	font-family: courier, serif;
-	font-size: 12px;
-	width: 960px;
+	font-size: 0.8em;
+	width: 90%;
 	margin: auto;
 }
 
@@ -62,5 +62,9 @@ a:visited{
 nav {
 	margin-top: 5%;
 	text-align: center;
+}
+
+.col-1of2 #description h1, h3, p{
+	text-align: left;
 }
 

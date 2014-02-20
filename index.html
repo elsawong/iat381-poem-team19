@@ -5,19 +5,29 @@
 			The meta tag is setting a character set for our webpage to render with 
 		-->
 		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	    <link href="css/main.css" rel="stylesheet">
+	    <link href="css/grids.css" rel="stylesheet">
+	    <link href="css/normalize.css" rel="stylesheet">
 
 		<title>Lost & Found</title>
 
 	</head>
 
 	<body>
-		<nav>
-			<a href="#"> About </a>
-			<a href="#"> Products </a>
-			<a href="#"> Blog </a>
-			<a href="#"> Cart </a>
-			<a href="#"> Contact </a>
+
+		<nav class="grid">
+		 <div class="col-1of5">
+			<a href="#"> About </a> </div>
+		 <div class="col-1of5">
+			<a href="#"> Products </a></div>
+		 <div class="col-1of5">
+			<a href="#"> Blog </a></div>
+		 <div class="col-1of5">
+			<a href="#"> Cart </a></div>
+		 <div class="col-1of5">
+			<a href="#"> Contact </a></div>
 		</nav>
 
 		<h1> Heading 1 </h1> <!-- centred condensed display type -->
@@ -25,11 +35,15 @@
 		<h3> Heading 3 </h3> <!-- large courier type -->
 		<p> Body copy </p>
 
+	<div class="grid">
+	  <div class="col-1of2">
+
+
 		<h1> Prose & Poetry </h1>
 		<p> We provide the guilty pleasure of indulging in our emotions through literature. Poetry often speaks to individuals in a different ways and can act as a reflection to our experiences. Our products invite users to feel comfortable by being able to relate to pieces of writing.</p>
+	</div> <!--col-1of1 ends-->
 
-
-
+	</div> <!--grid ends-->
 	</body>
 
 	</html>
