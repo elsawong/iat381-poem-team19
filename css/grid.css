@@ -1,0 +1,79 @@
+/* grid.css; defining grids for my site */
+
+[class*='col-'] {
+	float: left;
+	padding:0;
+	text-align: center;
+
+} /* looks for a string of "col-" and applies styling */
+
+.col-1of1 {
+	width: 100%;
+}
+
+.col-1of2 {
+	width: 50%;
+}
+
+/* defining styles for our 3 column grid */
+.col-1of3 {
+	width: 33.333%;
+}
+
+.col-1of4 {
+	width: 25%;
+}
+
+.products .col-1of4 {
+	float: right;
+	display: inline;
+	margin-top: 18px;
+}
+
+.grid .clear-right {
+	clear: right;
+}
+
+.col-1of5 {
+	width: 20%;
+}
+
+.grid:after { /* happens after the grid */
+	content: "";
+	display: block;
+	clear: both;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing:border-box; /* border to border, not from edge of content */
+	-mox-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+	.col-1of2{
+		width: 100%; /* when media is below 800px, width becomes 100% */
+	}
+
+	.col-1of4{
+		width: 50%;
+		clear: both;
+	}
+
+	h3, h1, p {
+		text-align: left;
+
+	}
+	}
+}
+
+@media (max-width: 480px) {
+	.col-1of3{
+		width:100%;
+	}
+
+	.col-1of4{
+		clear: both;
+		width: 100%;
+	}
+}
